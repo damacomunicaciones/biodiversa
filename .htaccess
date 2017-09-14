@@ -1,0 +1,9 @@
+//Caching schema
+//<FilesMatch "\.(jpg|png|svg|js)$">
+//Header set Cache-Control "max-age=86400"
+//</FilesMatch>
+//Prevent viewing of .htaccess file
+//<Files .htaccess>
+//order allow,deny
+//deny from all
+//</Files>
