@@ -7124,7 +7124,6 @@ textarea {
     .sucursales .item img {
       width: 80px;
       border-radius: 50%;
-      border: 1px solid #a0a0a0;
       transition: all .3s; }
       .sucursales .item img:hover {
         -webkit-transform: scale(1.3);
