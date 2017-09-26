@@ -4406,7 +4406,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.d-flex, .home header.mobile {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important; }
@@ -4461,7 +4461,7 @@ a.bg-dark:focus, a.bg-dark:hover {
     display: inline-flex !important; } }
 
 @media (min-width: 992px) {
-  .d-lg-none {
+  .d-lg-none, .home header.mobile {
     display: none !important; }
   .d-lg-inline {
     display: inline !important; }
