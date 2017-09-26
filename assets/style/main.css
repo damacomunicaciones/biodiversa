@@ -4388,7 +4388,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   clear: both;
   content: ""; }
 
-.d-none {
+.d-none, .home header.fixed {
   display: none !important; }
 
 .d-inline {
@@ -4445,7 +4445,7 @@ a.bg-dark:focus, a.bg-dark:hover {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block {
+  .d-md-block, .home header.fixed {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -6430,9 +6430,14 @@ textarea {
     .home {
       background-attachment: fixed; } }
   .home header {
-    z-index: 1;
-    min-height: 60px;
-    position: relative; }
+    z-index: 999;
+    position: relative;
+    height: 60px; }
+    .home header.mobile .brand {
+      background-image: url("../img/logo_blanco.svg");
+      position: relative;
+      top: 0;
+      left: 0; }
     .home header .brand {
       position: absolute;
       top: 1em;
@@ -6446,14 +6451,21 @@ textarea {
       z-index: 1;
       border-radius: 0;
       padding: 0;
-      float: right;
-      margin: .5em .5em 0 0; }
+      float: right; }
       .home header button span {
         color: #a4e800;
         font-size: 1.5em; }
     .home header nav {
       float: right;
-      position: relatives; }
+      position: relative;
+      width: 100%;
+      background: #ffffff;
+      top: 20px; }
+      @media (min-width: 768px) {
+        .home header nav {
+          background: inherit;
+          width: auto;
+          top: 0; } }
       .home header nav ul {
         margin-top: 1em;
         margin-bottom: 1em; }
@@ -6468,14 +6480,24 @@ textarea {
                   align-items: stretch;
           -webkit-box-pack: center;
               -ms-flex-pack: center;
-                  justify-content: center; }
+                  justify-content: center;
+          padding-top: 1em;
+          padding-bottom: 1em; }
+          @media (min-width: 768px) {
+            .home header nav ul li {
+              padding-top: 0;
+              padding-bottom: 0; } }
           .home header nav ul li a {
             font-weight: 400;
-            font-size: 12px;
+            font-size: 18px;
             text-transform: uppercase;
-            color: #ffffff;
+            color: #1884fa;
             display: inline-block;
             transition: all .2s; }
+            @media (min-width: 768px) {
+              .home header nav ul li a {
+                font-size: 12px;
+                color: #ffffff; } }
             .home header nav ul li a:hover {
               cursor: pointer; }
               .home header nav ul li a:hover::after {
