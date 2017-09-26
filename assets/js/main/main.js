@@ -1095,6 +1095,15 @@ $(document).ready(function(){
   $('header.fixed').midnight();
 });
 
+// var mediaquery = window.matchMedia("(max-width: 576px)");
+// function handleOrientationChange(mediaquery) {
+//   if (mediaquery.matches) {
+//     $('header.fixed').removeClass('fixed');
+//   } else {
+//     $('header.fixed').addClass('fixed');
+//   }
+// }
+// mediaquery.addListener(handleOrientationChange);
 
 // Validate form
 $("#form").validate({
