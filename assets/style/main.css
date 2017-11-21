@@ -834,7 +834,7 @@ pre {
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%; }
-  .col-md-4, .politica-integrada-extra .title, .acreditaciones-etfa .title-list, .noticias .item {
+  .col-md-4, .politica-integrada-extra .title, .acreditaciones-etfa .title-list {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
@@ -844,7 +844,7 @@ pre {
         -ms-flex: 0 0 41.66667%;
             flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .col-md-6, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .normativa-vigente .title, .normativa-vigente .list, .contact .item {
+  .col-md-6, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .normativa-vigente .title, .normativa-vigente .list, .noticias .item, .contact .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
@@ -5482,7 +5482,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .sucursales .item, .contact .item,
+.mr-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
 .mx-auto {
   margin-right: auto !important; }
 
@@ -5490,7 +5490,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .sucursales .item:first-child, .contact .item,
+.ml-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item:first-child, .contact .item,
 .mx-auto {
   margin-left: auto !important; }
 
@@ -7180,40 +7180,6 @@ textarea {
       text-align: left;
       display: inherit;
       font-size: 14px; }
-
-.footer {
-  padding-top: 3em;
-  background: #1884fa; }
-  .footer ul {
-    list-style-type: none;
-    padding-left: 0; }
-    .footer ul li {
-      padding: .5em 0;
-      color: #ffffff;
-      font-size: 16px; }
-      @media (min-width: 768px) {
-        .footer ul li {
-          display: inline-block;
-          margin: 0 1em; } }
-    .footer ul a {
-      color: #ffffff;
-      font-weight: 300;
-      transition: all .3s; }
-      .footer ul a:hover {
-        cursor: pointer;
-        color: #3bcbff; }
-  .footer img {
-    width: 40px; }
-  .footer .copyright ul li {
-    font-size: 16px;
-    font-weight: 300; }
-  .footer .copyright ul span {
-    display: none; }
-  @media (min-width: 576px) {
-    .footer .copyright ul span {
-      display: inline; }
-    .footer .copyright ul br {
-      display: none; } }
 
 @font-face {
   font-family: 'icons';
@@ -10118,3 +10084,37 @@ textarea {
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp; }
+
+.footer {
+  padding-top: 3em;
+  background: #1884fa; }
+  .footer ul {
+    list-style-type: none;
+    padding-left: 0; }
+    .footer ul li {
+      padding: .5em 0;
+      color: #ffffff;
+      font-size: 16px; }
+      @media (min-width: 768px) {
+        .footer ul li {
+          display: inline-block;
+          margin: 0 1em; } }
+    .footer ul a {
+      color: #ffffff;
+      font-weight: 300;
+      transition: all .3s; }
+      .footer ul a:hover {
+        cursor: pointer;
+        color: #3bcbff; }
+  .footer img {
+    width: 40px; }
+  .footer .copyright ul li {
+    font-size: 16px;
+    font-weight: 300; }
+  .footer .copyright ul span {
+    display: none; }
+  @media (min-width: 576px) {
+    .footer .copyright ul span {
+      display: inline; }
+    .footer .copyright ul br {
+      display: none; } }
