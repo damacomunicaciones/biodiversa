@@ -42,7 +42,8 @@
   <body>
 
     <section class="home">
-      <header class="navbar navbar-expand-lg mobile">
+
+      <header class="navbar navbar-expand-lg fixed">
         <a class="brand" href="/">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,22 +55,7 @@
             <li><a href="#soluciones-integrales">Proyecto y riles</a></li>
             <li><a href="#especialistas-analisis">Laboratorio ambiental</a></li>
             <li><a href="#valorizamos-residuos">Gestión de biosólidos</a></li>
-            <li><a href="#noticias">Noticias</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <header class="navbar navbar-expand-lg fixed">
-        <a class="brand" href="/">
-        </a>
-        <nav class="collapse navbar-collapse" id="navHeader">
-          <ul class="navbar-nav">
-            <li><a href="#confiabilidad-responsabilidad">Nuestra empresa</a></li>
-            <li><a href="#soluciones-integrales">Proyecto y riles</a></li>
-            <li><a href="#especialistas-analisis">Laboratorio ambiental</a></li>
-            <li><a href="#valorizamos-residuos">Gestión de biosólidos</a></li>
-            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#noticias">Articulos</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
@@ -570,7 +556,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
     <script type="text/javascript" src="assets/js/main/main.js"></script>
+    <script type="text/javascript">
+    $('#toggle').click(function() {
+       $(this).toggleClass('active');
+       $('#overlay').toggleClass('open');
+      });
+    </script>
   </body>
 </html>

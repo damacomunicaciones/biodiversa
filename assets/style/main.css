@@ -518,13 +518,13 @@ pre {
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
-  .no-gutters > .col, .home .no-gutters > .text, .organizacion .no-gutters > .title, .integrales-eficientes .no-gutters > .title, .analisis-monitoreo .no-gutters > .title, .residuos .no-gutters > .title,
+  .no-gutters > .col, .organizacion .no-gutters > .title, .integrales-eficientes .no-gutters > .title, .analisis-monitoreo .no-gutters > .title, .residuos .no-gutters > .title,
   .no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .confiabilidad-responsabilidad .img, .confiabilidad-responsabilidad .title, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .home .text, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .confiabilidad-responsabilidad .img, .confiabilidad-responsabilidad .title, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .home .text, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .politica-integrada-extra .list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item:last-child, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -535,7 +535,7 @@ pre {
   padding-right: 15px;
   padding-left: 15px; }
 
-.col, .home .text, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title {
+.col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title {
   -ms-flex-preferred-size: 0;
       flex-basis: 0;
   -webkit-box-flex: 1;
@@ -751,7 +751,7 @@ pre {
         -ms-flex: 0 0 91.66667%;
             flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .col-sm-12 {
+  .col-sm-12, .home .text {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -1466,7 +1466,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px; }
-  .form-row > .col, .home .form-row > .text, .organizacion .form-row > .title, .integrales-eficientes .form-row > .title, .analisis-monitoreo .form-row > .title, .residuos .form-row > .title,
+  .form-row > .col, .organizacion .form-row > .title, .integrales-eficientes .form-row > .title, .analisis-monitoreo .form-row > .title, .residuos .form-row > .title,
   .form-row > [class*="col-"] {
     padding-right: 5px;
     padding-left: 5px; }
@@ -5482,7 +5482,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
+.mr-auto, .home .text, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
 .mx-auto {
   margin-right: auto !important; }
 
@@ -5490,7 +5490,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item:first-child, .contact .item,
+.ml-auto, .home .text, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .title-list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item:first-child, .contact .item,
 .mx-auto {
   margin-left: auto !important; }
 
@@ -6408,18 +6408,6 @@ input,
 textarea {
   font-weight: 300; }
 
-.midnightHeader.default {
-  background: none; }
-  .midnightHeader.default .brand {
-    background-image: url("../img/logo_blanco.svg"); }
-
-.midnightHeader.white {
-  background: #f9f8f8; }
-  .midnightHeader.white .brand {
-    background-image: url("../img/logo_negro.svg"); }
-  .midnightHeader.white nav li a {
-    color: #737373; }
-
 .home {
   background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
@@ -6434,7 +6422,7 @@ textarea {
     position: relative;
     height: 60px; }
     .home header.mobile .brand {
-      background-image: url("../img/logo_blanco.svg");
+      background-image: url("../img/logo_biodiversa_blanco.svg");
       position: relative;
       top: 0;
       left: 0; }
@@ -6513,16 +6501,8 @@ textarea {
                       transform: scaleX(0);
               transition: all .2s; }
   .home .text {
-    height: 90vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    text-align: center;
+    height: 90vh; }
     .home .text h1 {
       color: #ffffff;
       line-height: 1.3;
