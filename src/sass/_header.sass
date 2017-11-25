@@ -1,0 +1,185 @@
+// Header
+.headerMain
+  z-index: 9999
+  position: fixed
+  z-index: 1030
+  right: 0
+  left: 0
+  transition: all .3s
+  &.headerScroll
+    background: $grisClaro
+    transition: all .3s
+    .brand
+      background-image: url('../../assets/img/logo_biodiversa_full.svg')
+    .btn-nav
+      span
+        background: $grisOscuro
+    .headerFullScreen
+      nav
+        ul
+          li
+            a:not(.contact)
+              color: $grisOscuro
+              &:hover:not(.contact)
+                box-shadow: 0 0 0 1px $grisOscuro
+
+  .brand
+    width: 200px
+    height: 50px
+    background:
+      image: url('../../assets/img/logo_biodiversa_blanco.svg')
+      repeat: no-repeat
+      size: contain
+      position: center
+
+
+  .btn-nav
+    @extend .d-block
+    @extend .d-xl-none
+    position: relative
+    height: 25px
+    width: 30px
+    cursor: pointer
+    z-index: 100
+    transition: opacity .25s ease
+    &:hover
+      opacity: .7
+    &.active
+      .top
+        transform: translateY(11px) translateX(0) rotate(45deg)
+        background: $verde-claro
+      .middle
+        opacity: 0
+        background: $verde-claro
+      .bottom
+        transform: translateY(-11px) translateX(0) rotate(-45deg)
+        background: $verde-claro
+    span
+      background: $blanco
+      border: none
+      height: 3px
+      border-radius: 3px
+      width: 100%
+      position: absolute
+      top: 0
+      left: 0
+      transition: all .35s ease
+      cursor: pointer
+      &:nth-of-type(2)
+        top: 11px
+      &:nth-of-type(3)
+        top: 22px
+
+  .headerFullScreen
+    @include media-breakpoint-down(lg)
+      position: fixed
+      background: $blanco
+      top: 0
+      left: 0
+      width: 100%
+      height: 0%
+      opacity: 0
+      visibility: hidden
+      overflow: hidden
+      z-index: 99
+      transition: opacity .35s, visibility .35s, height .35s
+      &.open
+        opacity: 1
+        visibility: visible
+        height: 100%
+        li
+          animation: fadeInRight .5s ease forwards
+          animation-delay: .35s
+          &:nth-of-type(2)
+            animation-delay: .4s
+          &:nth-of-type(3)
+            animation-delay: .45s
+          &:nth-of-type(4)
+            animation-delay: .50s
+      nav
+        position: relative
+        height: 70%
+        top: 50%
+        transform: translateY(-50%)
+        font-size: 1.5em
+        text-align: center
+      ul
+        list-style: none
+        padding: 0
+        margin: 0 auto
+        display: inline-block
+        position: relative
+        height: 100%
+        li
+          display: block
+          height: 20%
+          height: calc(100% / 5)
+          min-height: 50px
+          position: relative
+          opacity: 0
+          a
+            display: block
+            position: relative
+            color: $azul-claro
+            text-decoration: none
+            overflow: hidden
+            &:hover:after, &:focus:after, &:active:after
+              width: 100%
+            &:after
+              content: ''
+              position: absolute
+              bottom: 0
+              left: 50%
+              width: 0%
+              transform: translateX(-50%)
+              height: 3px
+              background: #FFF
+              transition: .35s
+
+    @-webkit-keyframes fadeInRight
+      0%
+        opacity: 0
+        left: 20%
+      100%
+        opacity: 1
+        left: 0
+    @keyframes fadeInRight
+      0%
+        opacity: 0
+        left: 20%
+      100%
+        opacity: 1
+        left: 0
+
+    @include media-breakpoint-up(lg)
+      nav
+        ul
+          display: flex
+          padding-left: 0
+          margin-bottom: 0
+          list-style: none
+          li
+            a
+              margin: 0 .3em
+              padding: .3rem .5rem
+              font-size: 14px
+              text-transform: uppercase
+              color: $blanco
+              transition: all .2s
+              border-radius: .5em
+              &.contact
+                background: $verde-medio
+              &:hover:not(.contact)
+                cursor: pointer
+                transition: all .2s
+                box-shadow: 0 0 0 1px $blanco
+              //   &::after
+              //     transform: scaleX(1)
+              // &::after
+              //   width: 50px
+              //   margin: 0 auto
+              //   display: block
+              //   content: ''
+              //   border-bottom: solid 1px $verde
+              //   transform: scaleX(0)
+              //   transition: all .2s

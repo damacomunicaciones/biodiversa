@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "DAMA",
+  "author": "DAMA Comunicaciones",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
@@ -19,16 +19,12 @@
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
     "gulp-order": "^1.1.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.9.5"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "DAMA Comunicaciones",
-  "license": "ISC"
+  }
 }

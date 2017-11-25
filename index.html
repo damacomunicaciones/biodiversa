@@ -37,38 +37,42 @@
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
   </head>
   <body>
 
-    <section class="home">
-
-      <header class="navbar navbar-expand-lg fixed">
-        <a class="brand" href="/">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeader" aria-controls="navHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-menu"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navHeader">
-          <ul class="navbar-nav">
-            <li><a href="#confiabilidad-responsabilidad">Nuestra empresa</a></li>
-            <li><a href="#soluciones-integrales">Proyecto y riles</a></li>
-            <li><a href="#especialistas-analisis">Laboratorio ambiental</a></li>
-            <li><a href="#valorizamos-residuos">Gestión de biosólidos</a></li>
-            <li><a href="#noticias">Articulos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
+    <section class="homeHero">
+      <div class="bgBlack"></div>
+      <header class="headerMain navbar" id="headerMain">
+        <a class="brand" href="/"></a>
+        <div class="btn-nav" id="toggle">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </div>
+        <div class="headerFullScreen" id="headerFullScreen">
+          <nav>
+            <ul>
+              <li><a href="#confiabilidad-responsabilidad">Nuestra empresa</a></li>
+              <li><a href="#soluciones-integrales">Proyecto y riles</a></li>
+              <li><a href="#especialistas-analisis">Laboratorio ambiental</a></li>
+              <li><a href="#valorizamos-residuos">Gestión de biosólidos</a></li>
+              <li><a href="#noticias">Articulos</a></li>
+              <li><a href="#contacto" class="contact">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
-      <div class="container">
-        <div class="row">
-          <div class="text">
+      <div class="heroContent">
+        <div class="heroRow">
+          <div class="heroTitle">
             <h1 class="a fadeInUp" data-wow-duration="2s">
               Sin eficiencia no hay sustentabilidad
-              <br />
-              <span>sin sustentabilidad no hay eficiencia</span>
             </h1>
+            <h2 class="a fadeInUp" data-wow-duration="2s">
+              Sin sustentabilidad no hay eficiencia
+            </h2>
           </div>
         </div>
       </div>
@@ -174,6 +178,7 @@
     </section>
 
     <section class="integrales-eficientes" id="soluciones-integrales">
+      <div class="bgBlack"></div>
       <div class="container">
         <div class="row">
           <div class="title">
@@ -251,6 +256,7 @@
     </section> -->
 
     <section class="analisis-monitoreo" id="especialistas-analisis">
+      <div class="bgBlack"></div>
       <div class="container">
         <div class="row">
           <div class="title">
@@ -396,6 +402,7 @@
     </section>
 
     <section class="residuos" id="valorizamos-residuos">
+      <div class="bgBlack"></div>
       <div class="container">
         <div class="row">
           <div class="title">
@@ -554,16 +561,9 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="dist/scripts/main.js"></script>
-    <script type="text/javascript">
-    $('#toggle').click(function() {
-       $(this).toggleClass('active');
-       $('#overlay').toggleClass('open');
-      });
-    </script>
+    <script type="text/javascript" src="dist/js/main.js"></script>
   </body>
 </html>

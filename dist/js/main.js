@@ -519,6 +519,26 @@ WebFont.load({
   }
 });
 
+// Header scroll color
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 500) {
+        $("#headerMain").addClass("headerScroll");
+    } else {
+      $("#headerMain").removeClass("headerScroll");
+    }
+});
+
+// Nav mobile
+$('#toggle').click(function() {
+  $(this).toggleClass('active');
+  $('#headerFullScreen').toggleClass('open');
+});
+$('.headerFullScreen nav ul li a').click(function() {
+  $('#toggle').toggleClass('active');
+  $('.headerFullScreen').toggleClass('open');
+});
+
 // Wow js
 var wow = new WOW(
   {

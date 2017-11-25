@@ -1,11 +1,12 @@
 // Requiere los módulos
 const autoprefixer = require('gulp-autoprefixer'),
-      browserSync = require('browser-sync'),
+      browserSync = require("browser-sync").create(),
       cache = require('gulp-cache'),
       concat = require('gulp-concat'),
       combineMq = require('gulp-combine-mq'),
       jshint = require('gulp-jshint'),
       minifycss = require('gulp-minify-css'),
+      notify = require('gulp-notify'),
       gulp = require('gulp'),
       order = require("gulp-order"),
       plumber = require('gulp-plumber'),
@@ -35,13 +36,21 @@ gulp.task('styles', function(){
         console.log(error.message);
         this.emit('end');
     }}))
-    .pipe(sass())
+    .pipe(sass().on('error',notify.onError({
+      message:'Error: <%= error.message %>',
+      title:'Fallo en SASS'
+    })))
+    // .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(gulp.dest('dist/css/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.reload({stream:true}))
+    // .pipe(notify({
+    //   message:"CSS actualizado",
+    //   title: 'TODO OK'
+    // }))
 });
 
 // Compila JS
@@ -80,7 +89,9 @@ gulp.task('default', ['browser-sync'], function(){
   gulp.watch("src/sass/*.sass", ['styles']);
   gulp.watch("src/scripts/*.js", ['scripts']);
   gulp.watch("*.html", ['bs-reload']);
+  browserSync.notify("Testing", 1000);
 });
+
 
 // Ejecuta las tareas
 // gulp.task('default', ['watch', 'server'])

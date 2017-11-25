@@ -2,6 +2,12 @@
 @import "node_modules/bootstrap/scss/bootstrap"
 @import "node_modules/open-color/open-color.scss"
 
+#__bs_notify__
+  top: auto !important
+  left: 0 !important
+  bottom: 0 !important
+  opacity: .8 !important
+
 // Colors
 $blanco:      #ffffff
 $grisClaro:   #f9f8f8
@@ -59,7 +65,8 @@ textarea
   font-weight: 300
 
 // Home
-.home
+.homeHero
+  position: relative
   background:
     image: url('../../assets/img/home.jpg')
     repeat: no-repeat
@@ -69,116 +76,31 @@ textarea
   @include media-breakpoint-up(md)
     background-attachment: fixed
 
-  // Header
-  header
-    z-index: 999
-    position: relative
-    height: 60px
-    &.fixed
-      @extend .d-none
-      @extend .d-md-block
-    &.mobile
-      @extend .d-flex
-      @extend .d-lg-none
-      .brand
-        background-image: url('../img/logo_biodiversa_blanco.svg')
-        position: relative
-        top: 0
-        left: 0
-    .brand
-      position: absolute
-      top: 1em
-      left: 1em
-      display: block
-      height: 30px
-      width: 200px
-      background:
-        repeat: no-repeat
-        size: 100%
-
-    button
-      z-index: 1
-      border-radius: 0
-      padding: 0
-      float: right
-      cursor: pointer
-      span
-        color: $verde-claro
-        font-size: 1.5em
-    nav
-      float: right
-      position: relative
-      width: 100vw
-      background: rgba(0, 0, 0, .95)
-      top: 40px
-      @include media-breakpoint-up(md)
-        background: inherit
-        width: auto
-        top: 0
-      ul
-        margin-top: 1em
-        margin-bottom: 1em
-        li
-          @extend .nav-item
-          text-align: center
-          height: 100%
-          display: flex
-          align-items: stretch
-          justify-content: center
-          padding-top: .2em
-          padding-bottom: .2em
-          @include media-breakpoint-up(md)
-            padding-top: 0
-            padding-bottom: 0
-          a
-            @extend .nav-link
-            font:
-              weight: 400
-              size: 16px
-            text-transform: uppercase
-            color: $blanco
-            display: inline-block
-            transition: all .2s
-            @include media-breakpoint-up(md)
-              font-size: 12px
-            &:hover
-              cursor: pointer
-              &::after
-                transform: scaleX(1)
-            &::after
-              width: 50px
-              margin: 0 auto
-              display: block
-              content: ''
-              border-bottom: solid 1px $verde
-              transform: scaleX(0)
-              transition: all .2s
-
-
   // Principal text
-  .text
-    @extend .col-sm-12
-    text-align: center
-    @extend .ml-auto
-    @extend .mr-auto
-    height: 90vh
-    // display: flex
-    // justify-content: center
-    // align-items: center
-    h1
-      color: $blanco
-      line-height: 1.3
-      font:
-        size: 24px
-        weight: 300
-      @include media-breakpoint-up(sm)
-        font-size: 32px
-      span
-        font:
-          size: 36px
-          weight: 700
-        @include media-breakpoint-up(sm)
-          font-size: 44px
+  .heroContent
+    @extend .container
+    .heroRow
+      @extend .row
+      .heroTitle
+        @extend .col-12
+        text-align: center
+        @extend .ml-auto
+        @extend .mr-auto
+        height: 90vh
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        h1, h2
+          color: $blanco
+          line-height: 1.3
+          font:
+            size: 24px
+            weight: 300
+          @include media-breakpoint-up(sm)
+            font-size: 32px
+        h2
+          font-weight: 700
 
 // APORTAMOS SOSTENIBILIDAD Y DESARROLLO A INDUSTRIAS Y CIUDADES
 .confiabilidad-responsabilidad
@@ -320,8 +242,9 @@ textarea
   height: 100vh
   display: flex
   align-items: center
+  position: relative
   background:
-    image: url('../img/proyectos_riles.jpg')
+    image: url('../../assets/img/proyectos_riles.jpg')
     repeat: no-repeat
     position: center
     size: cover
@@ -485,8 +408,9 @@ textarea
   height: 100vh
   display: flex
   align-items: center
+  position: relative
   background:
-    image: url('../img/laboratorios.jpg')
+    image: url('../../assets/img/laboratorios.jpg')
     repeat: no-repeat
     position: center
     size: cover
@@ -711,8 +635,9 @@ textarea
   height: 100vh
   display: flex
   align-items: center
+  position: relative
   background:
-    image: url('../img/biosolidos.jpg')
+    image: url('../../assets/img/biosolidos.jpg')
     repeat: no-repeat
     position: center
     size: cover
@@ -829,13 +754,13 @@ textarea
         weight: 400
   .item
     @extend .col-12
-    @extend .col-md-6
+    @extend .col-md-7
     @extend .ml-auto
     @extend .mr-auto
     margin-top: 2em
     .card-img
       @extend .card-img-top
-      max-height: 180px
+      max-height: 200px
     h4
       @extend .card-title
     p
@@ -910,6 +835,15 @@ textarea
       display: inherit
       font-size: 14px
 
+.bgBlack
+  background: rgba($negro, .4)
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+
 @import "fonts"
 @import "animate"
+@import "header"
 @import "footer"
