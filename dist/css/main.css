@@ -529,7 +529,7 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .homeHero .heroContent .heroRow .heroTitle, .confiabilidad-responsabilidad .img, .confiabilidad-responsabilidad .title, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .confiabilidad-responsabilidad .title, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .homeHero .heroContent .heroRow .heroTitle, .confiabilidad-responsabilidad .img, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .politica-integrada-extra .list, .acreditaciones-etfa .list, .ubicacion-laboratorios .item:last-child, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -610,7 +610,7 @@ pre {
           flex: 0 0 75%;
   max-width: 75%; }
 
-.col-10, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item {
+.col-10, .confiabilidad-responsabilidad .title, .confiabilidad-responsabilidad .item, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .title-list, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 83.33333%;
           flex: 0 0 83.33333%;
@@ -622,7 +622,7 @@ pre {
           flex: 0 0 91.66667%;
   max-width: 91.66667%; }
 
-.col-12, .homeHero .heroContent .heroRow .heroTitle, .confiabilidad-responsabilidad .img, .confiabilidad-responsabilidad .title, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright {
+.col-12, .homeHero .heroContent .heroRow .heroTitle, .confiabilidad-responsabilidad .img, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
@@ -860,7 +860,7 @@ pre {
         -ms-flex: 0 0 58.33333%;
             flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-md-8, .confiabilidad-responsabilidad .item, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
+  .col-md-8, .confiabilidad-responsabilidad .title, .confiabilidad-responsabilidad .item, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 66.66667%;
             flex: 0 0 66.66667%;
@@ -6494,8 +6494,7 @@ textarea {
   .confiabilidad-responsabilidad .img img {
     width: 200px; }
   .confiabilidad-responsabilidad .title {
-    margin-top: 2em;
-    margin-bottom: 2em; }
+    margin: 2em auto; }
     .confiabilidad-responsabilidad .title h3 {
       text-align: center;
       font-size: 22px;
@@ -6762,7 +6761,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  background-image: url("../../assets/img/laboratorios.jpg");
+  background-image: url("../../assets/img/laboratorio.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7074,7 +7073,8 @@ textarea {
     font-size: 22px;
     font-weight: 400; }
   .noticias .item {
-    margin-top: 2em; }
+    margin-top: 2em;
+    color: #000000; }
     .noticias .item .card-img {
       max-height: 200px; }
 
@@ -8558,6 +8558,16 @@ textarea {
 .fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
           animation-name: fadeInLeftBig; }
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
 
 @keyframes fadeInRight {
   from {
@@ -10045,13 +10055,13 @@ textarea {
       background-image: url("../../assets/img/logo_biodiversa_full.svg"); }
     .headerMain.headerScroll .btn-nav span {
       background: #737373; }
-    .headerMain.headerScroll .headerFullScreen nav ul li a:not(.contact) {
+    .headerMain.headerScroll .headerFullScreen nav a:not(.contact) {
       color: #737373; }
-      .headerMain.headerScroll .headerFullScreen nav ul li a:not(.contact):hover:not(.contact) {
+      .headerMain.headerScroll .headerFullScreen nav a:not(.contact):hover {
         -webkit-box-shadow: 0 0 0 1px #737373;
                 box-shadow: 0 0 0 1px #737373; }
   .headerMain .brand {
-    width: 200px;
+    width: 250px;
     height: 50px;
     background-image: url("../../assets/img/logo_biodiversa_blanco.svg");
     background-repeat: no-repeat;
@@ -10097,7 +10107,7 @@ textarea {
   @media (max-width: 1199px) {
     .headerMain .headerFullScreen {
       position: fixed;
-      background: #ffffff;
+      background: #1884fa;
       top: 0;
       left: 0;
       width: 100%;
@@ -10124,8 +10134,14 @@ textarea {
             -webkit-animation-delay: .45s;
                     animation-delay: .45s; }
           .headerMain .headerFullScreen.open li:nth-of-type(4) {
-            -webkit-animation-delay: .50s;
-                    animation-delay: .50s; }
+            -webkit-animation-delay: .5s;
+                    animation-delay: .5s; }
+          .headerMain .headerFullScreen.open li:nth-of-type(5) {
+            -webkit-animation-delay: .55s;
+                    animation-delay: .55s; }
+          .headerMain .headerFullScreen.open li:nth-of-type(6) {
+            -webkit-animation-delay: .6s;
+                    animation-delay: .6s; }
       .headerMain .headerFullScreen nav {
         position: relative;
         height: 70%;
@@ -10143,39 +10159,33 @@ textarea {
         height: 100%; }
         .headerMain .headerFullScreen ul li {
           display: block;
-          height: 20%;
-          height: calc(100% / 5);
-          min-height: 50px;
-          position: relative;
-          opacity: 0; }
+          height: 15%;
+          opacity: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
           .headerMain .headerFullScreen ul li a {
             display: block;
-            position: relative;
             color: #3bcbff;
             text-decoration: none;
-            overflow: hidden; }
-            .headerMain .headerFullScreen ul li a:hover:after, .headerMain .headerFullScreen ul li a:focus:after, .headerMain .headerFullScreen ul li a:active:after {
-              width: 100%; }
-            .headerMain .headerFullScreen ul li a:after {
-              content: '';
-              position: absolute;
-              bottom: 0;
-              left: 50%;
-              width: 0%;
-              -webkit-transform: translateX(-50%);
-                      transform: translateX(-50%);
-              height: 3px;
-              background: #FFF;
-              -webkit-transition: .35s;
-              transition: .35s; } }
-
-@-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%; }
-  100% {
-    opacity: 1;
-    left: 0; } }
+            -webkit-transition: all .2s;
+            transition: all .2s;
+            border-radius: .5em;
+            padding: .5em;
+            cursor: pointer;
+            color: #ffffff;
+            font-weight: 300; }
+            .headerMain .headerFullScreen ul li a:hover:not(.contact) {
+              -webkit-box-shadow: 0 0 0 1px #ffffff;
+                      box-shadow: 0 0 0 1px #ffffff; }
+            .headerMain .headerFullScreen ul li a.contact {
+              background: #6fd227; } }
 
 @keyframes fadeInRight {
   0% {
@@ -10203,6 +10213,8 @@ textarea {
         border-radius: .5em; }
         .headerMain .headerFullScreen nav ul li a.contact {
           background: #6fd227; }
+          .headerMain .headerFullScreen nav ul li a.contact:hover {
+            background: #4bc022; }
         .headerMain .headerFullScreen nav ul li a:hover:not(.contact) {
           cursor: pointer;
           -webkit-transition: all .2s;

@@ -15,16 +15,13 @@
       span
         background: $grisOscuro
     .headerFullScreen
-      nav
-        ul
-          li
-            a:not(.contact)
-              color: $grisOscuro
-              &:hover:not(.contact)
-                box-shadow: 0 0 0 1px $grisOscuro
+      nav a:not(.contact)
+        color: $grisOscuro
+        &:hover
+          box-shadow: 0 0 0 1px $grisOscuro
 
   .brand
-    width: 200px
+    width: 250px
     height: 50px
     background:
       image: url('../../assets/img/logo_biodiversa_blanco.svg')
@@ -73,7 +70,7 @@
   .headerFullScreen
     @include media-breakpoint-down(lg)
       position: fixed
-      background: $blanco
+      background: $azul
       top: 0
       left: 0
       width: 100%
@@ -95,7 +92,11 @@
           &:nth-of-type(3)
             animation-delay: .45s
           &:nth-of-type(4)
-            animation-delay: .50s
+            animation-delay: .5s
+          &:nth-of-type(5)
+            animation-delay: .55s
+          &:nth-of-type(6)
+            animation-delay: .6s
       nav
         position: relative
         height: 70%
@@ -112,37 +113,26 @@
         height: 100%
         li
           display: block
-          height: 20%
-          height: calc(100% / 5)
-          min-height: 50px
-          position: relative
+          height: 15%
           opacity: 0
+          display: flex
+          align-items: center
+          justify-content: center
           a
             display: block
-            position: relative
             color: $azul-claro
             text-decoration: none
-            overflow: hidden
-            &:hover:after, &:focus:after, &:active:after
-              width: 100%
-            &:after
-              content: ''
-              position: absolute
-              bottom: 0
-              left: 50%
-              width: 0%
-              transform: translateX(-50%)
-              height: 3px
-              background: #FFF
-              transition: .35s
+            transition: all .2s
+            border-radius: .5em
+            padding: .5em
+            cursor: pointer
+            color: $blanco
+            font-weight: 300
+            &:hover:not(.contact)
+              box-shadow: 0 0 0 1px $blanco
+            &.contact
+              background: $verde-medio
 
-    @-webkit-keyframes fadeInRight
-      0%
-        opacity: 0
-        left: 20%
-      100%
-        opacity: 1
-        left: 0
     @keyframes fadeInRight
       0%
         opacity: 0
@@ -169,17 +159,9 @@
               border-radius: .5em
               &.contact
                 background: $verde-medio
+                &:hover
+                  background: $verde
               &:hover:not(.contact)
                 cursor: pointer
                 transition: all .2s
                 box-shadow: 0 0 0 1px $blanco
-              //   &::after
-              //     transform: scaleX(1)
-              // &::after
-              //   width: 50px
-              //   margin: 0 auto
-              //   display: block
-              //   content: ''
-              //   border-bottom: solid 1px $verde
-              //   transform: scaleX(0)
-              //   transition: all .2s
