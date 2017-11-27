@@ -184,8 +184,12 @@ textarea
       p:not(.nosotrosTitle)
         margin-bottom: 0
       ul
+        list-style-type: none
         li
           font-weight: 300
+          &::before
+            content: "• "
+            color: $verde
       .nosotrosTitle
         text-transform: uppercase
         font-weight: 700
@@ -682,6 +686,8 @@ textarea
       @include media-breakpoint-up(md)
         width: 70%
     ul
+      list-style-type: none
+      padding-left: 0
       li
         text-align: center
         padding: .5em 0

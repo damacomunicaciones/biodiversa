@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -6555,8 +6556,13 @@ textarea {
     margin-bottom: 1.3em; }
     .quienes-somos .nosotrosContent .nosotrosItem p:not(.nosotrosTitle) {
       margin-bottom: 0; }
-    .quienes-somos .nosotrosContent .nosotrosItem ul li {
-      font-weight: 300; }
+    .quienes-somos .nosotrosContent .nosotrosItem ul {
+      list-style-type: none; }
+      .quienes-somos .nosotrosContent .nosotrosItem ul li {
+        font-weight: 300; }
+        .quienes-somos .nosotrosContent .nosotrosItem ul li::before {
+          content: "• ";
+          color: #4bc022; }
     .quienes-somos .nosotrosContent .nosotrosItem .nosotrosTitle {
       text-transform: uppercase;
       font-weight: 700;
@@ -7021,13 +7027,16 @@ textarea {
     @media (min-width: 768px) {
       .ubicacion-laboratorios .item img {
         width: 70%; } }
-  .ubicacion-laboratorios .item ul li {
-    text-align: center;
-    padding: .5em 0; }
-    @media (min-width: 768px) {
-      .ubicacion-laboratorios .item ul li {
-        border: inherit;
-        text-align: left; } }
+  .ubicacion-laboratorios .item ul {
+    list-style-type: none;
+    padding-left: 0; }
+    .ubicacion-laboratorios .item ul li {
+      text-align: center;
+      padding: .5em 0; }
+      @media (min-width: 768px) {
+        .ubicacion-laboratorios .item ul li {
+          border: inherit;
+          text-align: left; } }
   .ubicacion-laboratorios .item p {
     font-size: 16px;
     text-align: left; }
