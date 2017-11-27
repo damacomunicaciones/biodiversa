@@ -845,7 +845,7 @@ pre {
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
     max-width: 33.33333%; }
-  .col-md-5, .politica-integrada-extra .list, .ubicacion-laboratorios .item:last-child {
+  .col-md-5, .politica-integrada-extra .list, .ubicacion-laboratorios .item:last-child, .noticias .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 41.66667%;
             flex: 0 0 41.66667%;
@@ -855,7 +855,7 @@ pre {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%; }
-  .col-md-7, .noticias .item {
+  .col-md-7 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 58.33333%;
             flex: 0 0 58.33333%;
@@ -6455,7 +6455,7 @@ textarea {
       background-attachment: fixed; } }
   .homeHero .heroContent .heroRow .heroTitle {
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -6505,6 +6505,17 @@ textarea {
   .confiabilidad-responsabilidad .item p {
     font-size: 16px;
     text-align: left; }
+
+.bg-empresa {
+  height: 100vh;
+  background-image: url("../../assets/img/nuestra_empresa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll; }
+  @media (min-width: 768px) {
+    .bg-empresa {
+      background-attachment: fixed; } }
 
 .politica-integrada {
   padding-top: 3em;
@@ -6828,16 +6839,19 @@ textarea {
   .normativa-vigente .img {
     position: relative; }
     .normativa-vigente .img img {
-      width: 100%; }
+      width: 100%;
+      position: absolute;
+      top: -60px;
+      left: -35%; }
       @media (min-width: 768px) {
         .normativa-vigente .img img {
-          position: absolute;
-          top: -100px;
-          left: -35%;
           width: 70%; } }
   .normativa-vigente .title {
-    margin-top: 2em;
+    margin-top: 12em;
     margin-bottom: 2em; }
+    @media (min-width: 768px) {
+      .normativa-vigente .title {
+        margin-top: 2em; } }
     .normativa-vigente .title h3 {
       font-size: 22px;
       font-weight: 400; }
@@ -7064,9 +7078,15 @@ textarea {
     font-weight: 400; }
   .noticias .item {
     margin-top: 2em;
-    color: #000000; }
+    color: #000000;
+    text-align: left; }
     .noticias .item .card-img {
-      max-height: 200px; }
+      border-radius: 0;
+      max-height: auto; }
+    .noticias .item h4 {
+      font-size: 1.2em; }
+    .noticias .item p {
+      font-size: .9em; }
 
 .sucursales {
   padding-top: 3em; }
@@ -10051,12 +10071,15 @@ textarea {
         -webkit-box-shadow: 0 0 0 1px #737373;
                 box-shadow: 0 0 0 1px #737373; }
   .headerMain .brand {
-    width: 250px;
+    width: 200px;
     height: 50px;
     background-image: url("../../assets/img/logo_biodiversa_blanco.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; }
+    @media (min-width: 768px) {
+      .headerMain .brand {
+        width: 250px; } }
   .headerMain .btn-nav {
     position: relative;
     height: 25px;
@@ -10149,7 +10172,7 @@ textarea {
         height: 100%; }
         .headerMain .headerFullScreen ul li {
           display: block;
-          height: 15%;
+          height: 18%;
           opacity: 0;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -10167,13 +10190,13 @@ textarea {
             -webkit-transition: all .2s;
             transition: all .2s;
             border-radius: .5em;
-            padding: .5em;
+            padding: 0 .5em;
             cursor: pointer;
-            color: #ffffff;
+            color: #ffffff !important;
             font-weight: 300; }
             .headerMain .headerFullScreen ul li a:hover:not(.contact) {
-              -webkit-box-shadow: 0 0 0 1px #ffffff;
-                      box-shadow: 0 0 0 1px #ffffff; }
+              -webkit-box-shadow: 0 0 0 1px #ffffff !important;
+                      box-shadow: 0 0 0 1px #ffffff !important; }
             .headerMain .headerFullScreen ul li a.contact {
               background: #6fd227; } }
 

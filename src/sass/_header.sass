@@ -21,13 +21,15 @@
           box-shadow: 0 0 0 1px $grisOscuro
 
   .brand
-    width: 250px
+    width: 200px
     height: 50px
     background:
       image: url('../../assets/img/logo_biodiversa_blanco.svg')
       repeat: no-repeat
       size: contain
       position: center
+    @include media-breakpoint-up(md)
+      width: 250px
 
 
   .btn-nav
@@ -113,7 +115,7 @@
         height: 100%
         li
           display: block
-          height: 15%
+          height: 18%
           opacity: 0
           display: flex
           align-items: center
@@ -124,12 +126,12 @@
             text-decoration: none
             transition: all .2s
             border-radius: .5em
-            padding: .5em
+            padding: 0 .5em
             cursor: pointer
-            color: $blanco
+            color: $blanco !important
             font-weight: 300
             &:hover:not(.contact)
-              box-shadow: 0 0 0 1px $blanco
+              box-shadow: 0 0 0 1px $blanco !important
             &.contact
               background: $verde-medio
 
