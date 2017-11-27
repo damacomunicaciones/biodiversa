@@ -1,0 +1,38 @@
+// Footer
+.footer
+  padding-top: 3em
+  background: $azul
+  .list
+    @extend .col-12
+  ul
+    list-style-type: none
+    padding-left: 0
+    li
+      padding: .5em 0
+      color: $blanco
+      font-size: 16px
+      @include media-breakpoint-up(md)
+        display: inline-block
+        margin: 0 1em
+    a
+      color: $blanco
+      font-weight: 300
+      transition: all .3s
+      &:hover
+        cursor: pointer
+        color: $azul-claro
+  img
+    width: 40px
+  .copyright
+    @extend .col-12
+    ul
+      li
+        font-size: 16px
+        font-weight: 300
+      span
+        display: none
+      @include media-breakpoint-up(sm)
+        span
+          display: inline
+        br
+          display: none

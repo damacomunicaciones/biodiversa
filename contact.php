@@ -8,7 +8,7 @@
       $email = $_GET['email'];
       $tel = $_GET['tel'];
       $message = $_GET['message'];
-      $client = 'rodrigo@bubbastudios.cl';
+      $client = 'rodrigoburgoscl@gmail.com';
 
       //Creamos cabecera.
       $headers = 'De' . " " . $email . "\r\n";
