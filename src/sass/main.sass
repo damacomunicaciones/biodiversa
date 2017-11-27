@@ -102,14 +102,16 @@ textarea
         h2
           font-weight: 700
 
-// APORTAMOS SOSTENIBILIDAD Y DESARROLLO A INDUSTRIAS Y CIUDADES
-.confiabilidad-responsabilidad
+// QUIENES SOMOS
+.quienes-somos
+  @extend .container
   position: relative
   padding-top: 3em
   padding-bottom: 3em
   min-height: 100vh
   display: flex
   align-items: center
+  flex-direction: column
   .img
     @extend .col-12
     img
@@ -134,6 +136,49 @@ textarea
     p
       font-size: 16px
       text-align: left
+  .valores
+    @extend .col-10
+    @extend .col-md-8
+    @extend .ml-auto
+    @extend .mr-auto
+    text-align: left
+    min-height: 100vh
+    display: flex
+    justify-content: center
+    flex-direction: column
+    .valoresItem
+      @extend .col-10
+      @extend .col-md-2
+      &:first-child
+        @extend .ml-auto
+      &:last-child
+        @extend .col-md-8
+        display: flex
+        align-items: flex-start
+
+      .valoresItem-title
+        text-align: right
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 1.1em
+      img
+        margin-right: 1em
+        margin-top: 6px
+        width: 15px
+
+  .nosotros
+    @extend .col-10
+    @extend .col-md-4
+    @extend .ml-auto
+    @extend .mr-auto
+    text-align: left
+    p:not(.nosotrosTitle)
+      margin-bottom: 0
+    .nosotrosTitle
+      text-transform: uppercase
+      font-weight: 700
+      font-size: 1.1em
+      margin-bottom: .5em
 
 .bg-empresa
   height: 100vh
@@ -664,8 +709,7 @@ textarea
 
 // EXITOSAS EXPERIENCIAS DE APLICACIÓN DE LODOS
 .exitosas-experiencias
-  padding-top: 3em
-  padding-bottom: 3em
+  padding-top: 5em
   min-height: 100vh
   display: flex
   align-items: center
