@@ -48,7 +48,6 @@ hr
 
 ul
   padding-left: 0
-  list-style-type: none
 
 .btn-primary
   color: #fff
@@ -144,7 +143,7 @@ textarea
   .valores
     @extend .col-10
     @extend .col-md-8
-    @extend .ml-auto
+    @extend .ml-md-auto
     @extend .mr-auto
     text-align: left
     min-height: 100vh
@@ -153,16 +152,19 @@ textarea
     flex-direction: column
     .valoresItem
       @extend .col-10
-      @extend .col-md-2
       &:first-child
         @extend .ml-auto
+        @extend .mr-auto
+        @extend .mr-md-0
+        @extend .col-md-3
       &:last-child
         @extend .col-md-8
         display: flex
         align-items: flex-start
 
       .valoresItem-title
-        text-align: right
+        @extend .text-left
+        @extend .text-md-right
         text-transform: uppercase
         font-weight: 700
         font-size: 1.1em
@@ -171,30 +173,42 @@ textarea
         margin-top: 6px
         width: 15px
 
-  .nosotros
+  .nosotrosContent
     @extend .col-10
-    @extend .col-md-4
     @extend .ml-auto
     @extend .mr-auto
-    text-align: left
-    p:not(.nosotrosTitle)
-      margin-bottom: 0
-    .nosotrosTitle
-      text-transform: uppercase
-      font-weight: 700
-      font-size: 1.1em
-      margin-bottom: .5em
+    .nosotrosItem
+      @extend .col-md-4
+      text-align: left
+      position: relative
+      z-index: 1
+      margin-bottom: 1.3em
+      p:not(.nosotrosTitle)
+        margin-bottom: 0
+      ul
+        list-style-type: none
+        li
+          font-weight: 300
+          &::before
+            content: "• "
+            color: $verde
+      .nosotrosTitle
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 1.1em
+        margin-bottom: .5em
 
 .bg-empresa
   height: 100vh
+  transform: translateY(-300px)
   background:
     image: url('../../assets/img/nuestra_empresa.jpg')
     repeat: no-repeat
-    position: center
+    position: right
     size: cover
-    attachment: scroll
   @include media-breakpoint-up(md)
-    background-attachment: fixed
+    transform: translateY(-250px)
+    background-position: center
 
 // Política integrada a la empresa
 .politica-integrada
@@ -619,6 +633,8 @@ textarea
     @extend .ml-auto
     @extend .mr-auto
     text-align: left
+    ul
+      list-style-type: none
     .itemTitle
       display: flex
       align-items: center
@@ -636,8 +652,11 @@ textarea
       p:first-child
         margin-bottom: 0
       img
-        margin-top: 1em
         width: 50%
+        margin-bottom: 3em
+        @include media-breakpoint-up(md)
+          margin-top: 1em
+          margin-bottom: 0
 // UBICACIÓN DE LABORATORIOS
 .ubicacion-laboratorios
   padding-top: 3em
@@ -669,6 +688,8 @@ textarea
       @include media-breakpoint-up(md)
         width: 70%
     ul
+      list-style-type: none
+      padding-left: 0
       li
         text-align: center
         padding: .5em 0
