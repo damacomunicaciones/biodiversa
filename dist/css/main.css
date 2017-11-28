@@ -6584,7 +6584,6 @@ textarea {
       background-position: center; } }
 
 .politica-integrada {
-  padding-top: 3em;
   padding-bottom: 3em;
   min-height: 100vh;
   display: -webkit-box;
@@ -6592,7 +6591,8 @@ textarea {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin-top: -10em; }
   .politica-integrada .img img {
     width: 100%; }
     @media (min-width: 768px) {
