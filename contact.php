@@ -8,6 +8,7 @@
       $email = $_GET['email'];
       $tel = $_GET['tel'];
       $message = $_GET['message'];
+      // $client = 'rodrigoburgoscl@gmail.com';
       $client = 'biodiversa@biodiversa.com';
 
       //Creamos cabecera.
