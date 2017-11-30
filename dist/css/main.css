@@ -6508,7 +6508,8 @@ textarea {
         -ms-flex-direction: column;
             flex-direction: column; }
   .quienes-somos .img img {
-    width: 300px; }
+    width: 300px;
+    margin-right: 5em; }
   .quienes-somos .title {
     margin: 2em auto; }
     .quienes-somos .title h3 {
