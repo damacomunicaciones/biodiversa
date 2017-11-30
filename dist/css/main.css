@@ -532,7 +532,7 @@ pre {
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .quienes-somos .title, .quienes-somos .item, .quienes-somos .valores, .quienes-somos .valores .valoresItem, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .img, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .acreditaciones-etfa .item .itemCertificated, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
-.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .quienes-somos .valores .valoresItem:first-child, .col-md-4, .quienes-somos .nosotrosContent .nosotrosItem, .col-md-5, .politica-integrada-extra .list, .ubicacion-laboratorios .item:last-child, .col-md-6, .col-md-7, .col-md-8, .quienes-somos .valores .valoresItem:last-child, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-sm-auto, .col-md-1, .col-md-2, .quienes-somos .valores .valoresItem:first-child, .col-md-3, .col-md-4, .quienes-somos .nosotrosContent .nosotrosItem, .col-md-5, .politica-integrada-extra .list, .ubicacion-laboratorios .item:last-child, .col-md-6, .col-md-7, .col-md-8, .quienes-somos .valores .valoresItem:last-child, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
@@ -831,12 +831,12 @@ pre {
         -ms-flex: 0 0 8.33333%;
             flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .col-md-2, .ubicacion-laboratorios .item {
+  .col-md-2, .quienes-somos .valores .valoresItem:first-child, .ubicacion-laboratorios .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 16.66667%;
             flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .col-md-3, .quienes-somos .valores .valoresItem:first-child, .organizacion .ejecutivos {
+  .col-md-3, .organizacion .ejecutivos {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
@@ -5511,7 +5511,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .item, .quienes-somos .valores, .quienes-somos .valores .valoresItem:first-child, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
+.mr-auto, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .item, .quienes-somos .valores, .quienes-somos .valores .valoresItem:last-child, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
 .mx-auto {
   margin-right: auto !important; }
 
