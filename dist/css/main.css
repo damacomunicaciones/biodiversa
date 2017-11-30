@@ -856,12 +856,12 @@ pre {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%; }
-  .col-md-7 {
+  .col-md-7, .quienes-somos .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 58.33333%;
             flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-md-8, .quienes-somos .title, .quienes-somos .item, .quienes-somos .valores, .quienes-somos .valores .valoresItem:last-child, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
+  .col-md-8, .quienes-somos .title, .quienes-somos .valores, .quienes-somos .valores .valoresItem:last-child, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 66.66667%;
             flex: 0 0 66.66667%;
@@ -6496,7 +6496,7 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column; }
   .quienes-somos .quienesSomosIntro {
-    min-height: 100vh;
+    min-height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -6508,7 +6508,7 @@ textarea {
         -ms-flex-direction: column;
             flex-direction: column; }
   .quienes-somos .img img {
-    width: 200px; }
+    width: 300px; }
   .quienes-somos .title {
     margin: 2em auto; }
     .quienes-somos .title h3 {
@@ -6523,7 +6523,7 @@ textarea {
     text-align: left; }
   .quienes-somos .valores {
     text-align: left;
-    min-height: 100vh;
+    min-height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
