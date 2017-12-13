@@ -8,7 +8,7 @@
   },
   "author": "DAMA Comunicaciones",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^4.0.0-beta",
     "browser-sync": "^2.18.13",
     "feather-icons": "^3.3.0",
@@ -25,6 +25,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "node-sass": "^4.7.2"
   }
 }
