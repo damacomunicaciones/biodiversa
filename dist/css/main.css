@@ -7995,3 +7995,12 @@ textarea {
       display: inline; }
     .footer .copyright ul br {
       display: none; } }
+
+.navegadores {
+  background: #1884fa;
+  text-align: center;
+  padding-bottom: 10px; }
+  .navegadores p, .navegadores a {
+    color: #ffffff;
+    font-size: 10px;
+    margin-bottom: 0; }
