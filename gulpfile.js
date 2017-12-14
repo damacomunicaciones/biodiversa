@@ -41,7 +41,7 @@ gulp.task('styles', function(){
       title:'Fallo en SASS'
     })))
     // .pipe(sass())
-    .pipe(autoprefixer('last 2 versions'))
+    // .pipe(autoprefixer('last 2 versions', 'ie >= 9'))
     .pipe(gulp.dest('dist/css/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())

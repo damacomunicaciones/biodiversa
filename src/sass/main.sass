@@ -1,6 +1,5 @@
 // Imports
 @import "node_modules/bootstrap/scss/bootstrap"
-@import "node_modules/open-color/open-color.scss"
 
 #__bs_notify__
   top: auto !important
@@ -28,6 +27,7 @@ $lato: 'Lato', sans-serif
 body
   font-family: $lato
   text-align: center
+  overflow-x: hidden
 
 h1, h2, h3
   text-transform: uppercase
@@ -112,39 +112,38 @@ textarea
   align-items: center
   flex-direction: column
   .quienesSomosIntro
+    @extend .row
     min-height: 80vh
     display: flex
     justify-content: center
-    flex-direction: column
-  .img
-    @extend .col-12
-    img
-      width: 300px
-      margin-right: 5em
-  .title
-    @extend .col-10
-    @extend .col-md-8
-    margin: 2em auto
-    h3
-      text-align: center
-      font:
-        size: 22px
-        weight: 400
-      @include media-breakpoint-up(md)
-        br
-          display: none
-  .item
-    @extend .col-10
-    @extend .col-md-7
-    @extend .ml-auto
-    @extend .mr-auto
-    p
-      font-size: 16px
-      text-align: left
+    .img
+      @extend .col-12
+      img
+        width: 300px
+        margin-right: 5em
+    .title
+      @extend .col-10
+      @extend .col-md-8
+      margin: 2em auto
+      h3
+        text-align: center
+        font:
+          size: 22px
+          weight: 400
+        @include media-breakpoint-up(md)
+          br
+            display: none
+    .item
+      @extend .col-10
+      @extend .col-md-8
+      margin: 2em auto
+      p
+        font-size: 16px
+        text-align: left
   .valores
     @extend .col-10
     @extend .col-md-8
-    @extend .ml-md-auto
+    @extend .ml-auto
     @extend .mr-auto
     text-align: left
     min-height: 80vh
