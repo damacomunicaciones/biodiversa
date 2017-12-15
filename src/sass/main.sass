@@ -104,21 +104,13 @@ textarea
 // QUIENES SOMOS
 .quienes-somos
   @extend .container
-  position: relative
-  padding-top: 3em
-  padding-bottom: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
-  flex-direction: column
-  .quienesSomosIntro
-    @extend .row
+  .quienesSomosContent
+    height: 100vh
     display: flex
+    flex-direction: column
     justify-content: center
-    padding-top: 3em
-    padding-bottom: 3em
     .img
-      @extend .col-12
+      @extend .col
       img
         width: 300px
         margin-right: 5em
@@ -139,7 +131,7 @@ textarea
         font-size: 16px
         text-align: left
 
-  .valores
+  .valoresContent
     @extend .col-10
     @extend .col-md-8
     @extend .ml-auto
