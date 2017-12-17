@@ -45,3 +45,24 @@
     color: $blanco
     font-size: 10px
     margin-bottom: 0
+
+.up-arrow
+  display: none
+@supports (-ms-ime-align:auto)
+  .up-arrow
+    display: block
+    width: 50px
+    height: 50px
+    background: $grisOscuro
+    color: $blanco
+    display: flex
+    align-items: center
+    justify-content: center
+    position: fixed
+    right: 1em
+    bottom: 1em
+    border-radius: 50%
+    img
+      width: 25px
+      position: relative
+      top: -1px
