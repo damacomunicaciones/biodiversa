@@ -167,3 +167,10 @@
                 cursor: pointer
                 transition: all .2s
                 box-shadow: 0 0 0 1px $blanco
+
+
+@supports (-ms-ime-align:auto)
+  .headerMain
+    position: inherit !important
+    ul li a:hover:not(.contact)
+      box-shadow: none !important

@@ -5625,6 +5625,10 @@ textarea {
     .homeHero .heroContent .heroRow .heroTitle h2 {
       font-weight: 700; }
 
+@supports (-ms-ime-align: auto) {
+  h1 {
+    font-weight: 400; } }
+
 .quienes-somos .quienesSomosContent {
   height: 100vh;
   display: flex;
@@ -7955,6 +7959,12 @@ textarea {
           cursor: pointer;
           transition: all .2s;
           box-shadow: 0 0 0 1px #ffffff; } }
+
+@supports (-ms-ime-align: auto) {
+  .headerMain {
+    position: inherit !important; }
+    .headerMain ul li a:hover:not(.contact) {
+      box-shadow: none !important; } }
 
 .footer {
   padding-top: 3em;
