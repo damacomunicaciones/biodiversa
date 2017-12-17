@@ -100,7 +100,10 @@ textarea
             font-size: 40px
         h2
           font-weight: 700
-
+@supports (-ms-ime-align:auto)
+  h1
+    font-weight: 400
+    
 // QUIENES SOMOS
 .quienes-somos
   @extend .container
