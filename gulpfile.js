@@ -17,9 +17,7 @@ const autoprefixer = require('gulp-autoprefixer'),
 // Crea el servidor
 gulp.task('browser-sync', function() {
   browserSync.init({
-    server: {
-      baseDir: "./"
-    }
+    server: true
   });
 });
 
