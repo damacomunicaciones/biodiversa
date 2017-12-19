@@ -3825,7 +3825,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   clear: both;
   content: ""; }
 
-.d-none {
+.d-none, .img-desktop {
   display: none !important; }
 
 .d-inline {
@@ -3868,13 +3868,13 @@ a.bg-dark:focus, a.bg-dark:hover {
     display: inline-flex !important; } }
 
 @media (min-width: 768px) {
-  .d-md-none {
+  .d-md-none, .img-mobile {
     display: none !important; }
   .d-md-inline {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block {
+  .d-md-block, .img-desktop {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -5604,6 +5604,9 @@ input,
 textarea {
   font-weight: 300; }
 
+.img-desktop {
+  margin: 0 auto; }
+
 .homeHero {
   position: relative;
   background-image: url("../../assets/img/home.jpg");
@@ -5645,21 +5648,23 @@ textarea {
     align-items: center;
     text-align: center; }
     .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
-      width: 300px; }
+      width: 200px; }
       @media (min-width: 768px) {
         .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
-          margin-right: 5em; } }
-    .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 {
-      text-align: center;
-      font-size: 22px;
-      font-weight: 400; }
-      @media (min-width: 768px) {
-        .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 br {
-          display: none; } }
-    .quienes-somos .quienesSomosContent .quienesSomosContent-title p {
-      margin-top: 2em;
-      font-size: 16px;
-      text-align: left; }
+          width: 300px; } }
+    .quienes-somos .quienesSomosContent .quienesSomosContent-title {
+      margin-top: 1em; }
+      .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400; }
+        @media (min-width: 768px) {
+          .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 br {
+            display: none; } }
+      .quienes-somos .quienesSomosContent .quienesSomosContent-title p {
+        margin-top: 2em;
+        font-size: 16px;
+        text-align: left; }
   .quienes-somos .valoresContent {
     text-align: left;
     height: 80vh;
