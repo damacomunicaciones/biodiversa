@@ -479,23 +479,23 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .homeHero .heroContent, .quienes-somos {
+.container, .homeHero .heroContent, .quienes-somos .quienesSomosContent {
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
   width: 100%; }
   @media (min-width: 576px) {
-    .container, .homeHero .heroContent, .quienes-somos {
+    .container, .homeHero .heroContent, .quienes-somos .quienesSomosContent {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .homeHero .heroContent, .quienes-somos {
+    .container, .homeHero .heroContent, .quienes-somos .quienesSomosContent {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .homeHero .heroContent, .quienes-somos {
+    .container, .homeHero .heroContent, .quienes-somos .quienesSomosContent {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .homeHero .heroContent, .quienes-somos {
+    .container, .homeHero .heroContent, .quienes-somos .quienesSomosContent {
       max-width: 1140px; } }
 
 .container-fluid {
@@ -515,12 +515,12 @@ pre {
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
-  .no-gutters > .col, .quienes-somos .quienesSomosContent .no-gutters > .img, .organizacion .no-gutters > .title, .integrales-eficientes .no-gutters > .title, .analisis-monitoreo .no-gutters > .title, .residuos .no-gutters > .title,
+  .no-gutters > .col, .organizacion .no-gutters > .title, .integrales-eficientes .no-gutters > .title, .analisis-monitoreo .no-gutters > .title, .residuos .no-gutters > .title,
   .no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .quienes-somos .quienesSomosContent .title, .quienes-somos .valoresContent, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .valoresContent .valoresItem, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .acreditaciones-etfa .item .itemCertificated, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .quienes-somos .quienesSomosContent .img, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .quienes-somos .quienesSomosContent .quienesSomosContent-img, .quienes-somos .quienesSomosContent .quienesSomosContent-title, .quienes-somos .valoresContent, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .col-11, .col-12, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .valoresContent .valoresItem, .politica-integrada .img, .politica-integrada .title, .organizacion .ejecutivos, .experiencia-eficiencia .img, .experiencia-eficiencia .title, .servicio-autorizacion .img, .servicio-autorizacion .title, .tratamiento-riles .img, .laboratorios-certificados .img, .laboratorios-certificados .title, .normativa-vigente .img, .normativa-vigente .title, .acreditaciones-etfa .img, .acreditaciones-etfa .title, .acreditaciones-etfa .item .itemCertificated, .ubicacion-laboratorios .title, .exitosas-experiencias .img, .exitosas-experiencias .title, .servicios .img, .servicios .title, .noticias .title, .noticias .item, .sucursales .title, .sucursales .item, .sucursales .contact, .contact .title, .contact .item, .footer .list, .footer .copyright, .col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .quienes-somos .valoresContent .valoresItem:first-child, .col-md-3, .col-md-4, .quienes-somos .nosotrosContent .nosotrosItem, .col-md-5, .politica-integrada-extra .list, .ubicacion-laboratorios .item:last-child, .col-md-6, .col-md-7, .col-md-8, .quienes-somos .valoresContent .valoresItem:last-child, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
@@ -532,7 +532,7 @@ pre {
   padding-right: 15px;
   padding-left: 15px; }
 
-.col, .quienes-somos .quienesSomosContent .img, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title {
+.col, .organizacion .title, .integrales-eficientes .title, .analisis-monitoreo .title, .residuos .title {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%; }
@@ -578,7 +578,7 @@ pre {
   flex: 0 0 75%;
   max-width: 75%; }
 
-.col-10, .quienes-somos .quienesSomosContent .title, .quienes-somos .valoresContent, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item {
+.col-10, .quienes-somos .quienesSomosContent .quienesSomosContent-img, .quienes-somos .quienesSomosContent .quienesSomosContent-title, .quienes-somos .valoresContent, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item {
   flex: 0 0 83.33333%;
   max-width: 83.33333%; }
 
@@ -726,7 +726,7 @@ pre {
   .col-md-7 {
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-md-8, .quienes-somos .quienesSomosContent .title, .quienes-somos .valoresContent, .quienes-somos .valoresContent .valoresItem:last-child, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
+  .col-md-8, .quienes-somos .quienesSomosContent .quienesSomosContent-title, .quienes-somos .valoresContent, .quienes-somos .valoresContent .valoresItem:last-child, .politica-integrada .item, .experiencia-eficiencia .item, .laboratorios-certificados .item, .exitosas-experiencias .item, .servicios .item {
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
   .col-md-9 {
@@ -1186,7 +1186,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px; }
-  .form-row > .col, .quienes-somos .quienesSomosContent .form-row > .img, .organizacion .form-row > .title, .integrales-eficientes .form-row > .title, .analisis-monitoreo .form-row > .title, .residuos .form-row > .title,
+  .form-row > .col, .organizacion .form-row > .title, .integrales-eficientes .form-row > .title, .analisis-monitoreo .form-row > .title, .residuos .form-row > .title,
   .form-row > [class*="col-"] {
     padding-right: 5px;
     padding-left: 5px; }
@@ -2297,7 +2297,7 @@ tbody.collapse.show {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
-  .navbar > .container, .homeHero .navbar > .heroContent, .navbar > .quienes-somos,
+  .navbar > .container, .homeHero .navbar > .heroContent, .quienes-somos .navbar > .quienesSomosContent,
   .navbar > .container-fluid {
     display: flex;
     flex-wrap: wrap;
@@ -2357,7 +2357,7 @@ tbody.collapse.show {
   background-size: 100% 100%; }
 
 @media (max-width: 575px) {
-  .navbar-expand-sm > .container, .homeHero .navbar-expand-sm > .heroContent, .navbar-expand-sm > .quienes-somos,
+  .navbar-expand-sm > .container, .homeHero .navbar-expand-sm > .heroContent, .quienes-somos .navbar-expand-sm > .quienesSomosContent,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
@@ -2377,7 +2377,7 @@ tbody.collapse.show {
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
-    .navbar-expand-sm > .container, .homeHero .navbar-expand-sm > .heroContent, .navbar-expand-sm > .quienes-somos,
+    .navbar-expand-sm > .container, .homeHero .navbar-expand-sm > .heroContent, .quienes-somos .navbar-expand-sm > .quienesSomosContent,
     .navbar-expand-sm > .container-fluid {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -2386,7 +2386,7 @@ tbody.collapse.show {
       display: none; } }
 
 @media (max-width: 767px) {
-  .navbar-expand-md > .container, .homeHero .navbar-expand-md > .heroContent, .navbar-expand-md > .quienes-somos,
+  .navbar-expand-md > .container, .homeHero .navbar-expand-md > .heroContent, .quienes-somos .navbar-expand-md > .quienesSomosContent,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
@@ -2406,7 +2406,7 @@ tbody.collapse.show {
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
-    .navbar-expand-md > .container, .homeHero .navbar-expand-md > .heroContent, .navbar-expand-md > .quienes-somos,
+    .navbar-expand-md > .container, .homeHero .navbar-expand-md > .heroContent, .quienes-somos .navbar-expand-md > .quienesSomosContent,
     .navbar-expand-md > .container-fluid {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -2415,7 +2415,7 @@ tbody.collapse.show {
       display: none; } }
 
 @media (max-width: 991px) {
-  .navbar-expand-lg > .container, .homeHero .navbar-expand-lg > .heroContent, .navbar-expand-lg > .quienes-somos,
+  .navbar-expand-lg > .container, .homeHero .navbar-expand-lg > .heroContent, .quienes-somos .navbar-expand-lg > .quienesSomosContent,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
@@ -2435,7 +2435,7 @@ tbody.collapse.show {
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
-    .navbar-expand-lg > .container, .homeHero .navbar-expand-lg > .heroContent, .navbar-expand-lg > .quienes-somos,
+    .navbar-expand-lg > .container, .homeHero .navbar-expand-lg > .heroContent, .quienes-somos .navbar-expand-lg > .quienesSomosContent,
     .navbar-expand-lg > .container-fluid {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -2444,7 +2444,7 @@ tbody.collapse.show {
       display: none; } }
 
 @media (max-width: 1199px) {
-  .navbar-expand-xl > .container, .homeHero .navbar-expand-xl > .heroContent, .navbar-expand-xl > .quienes-somos,
+  .navbar-expand-xl > .container, .homeHero .navbar-expand-xl > .heroContent, .quienes-somos .navbar-expand-xl > .quienesSomosContent,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
@@ -2464,7 +2464,7 @@ tbody.collapse.show {
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: .5rem;
         padding-left: .5rem; }
-    .navbar-expand-xl > .container, .homeHero .navbar-expand-xl > .heroContent, .navbar-expand-xl > .quienes-somos,
+    .navbar-expand-xl > .container, .homeHero .navbar-expand-xl > .heroContent, .quienes-somos .navbar-expand-xl > .quienesSomosContent,
     .navbar-expand-xl > .container-fluid {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -2476,7 +2476,7 @@ tbody.collapse.show {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start; }
-  .navbar-expand > .container, .homeHero .navbar-expand > .heroContent, .navbar-expand > .quienes-somos,
+  .navbar-expand > .container, .homeHero .navbar-expand > .heroContent, .quienes-somos .navbar-expand > .quienesSomosContent,
   .navbar-expand > .container-fluid {
     padding-right: 0;
     padding-left: 0; }
@@ -2490,7 +2490,7 @@ tbody.collapse.show {
     .navbar-expand .navbar-nav .nav-link {
       padding-right: .5rem;
       padding-left: .5rem; }
-  .navbar-expand > .container, .homeHero .navbar-expand > .heroContent, .navbar-expand > .quienes-somos,
+  .navbar-expand > .container, .homeHero .navbar-expand > .heroContent, .quienes-somos .navbar-expand > .quienesSomosContent,
   .navbar-expand > .container-fluid {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -4665,16 +4665,24 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .valoresContent, .quienes-somos .valoresContent .valoresItem:first-child, .quienes-somos .valoresContent .valoresItem:last-child, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
-.mx-auto {
+.mr-auto, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .valoresContent .valoresItem:first-child, .quienes-somos .valoresContent .valoresItem:last-child, .politica-integrada .item, .politica-integrada-extra .list, .experiencia-eficiencia .item, .servicio-autorizacion .item, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item, .contact .item,
+.mx-auto,
+.quienes-somos .quienesSomosContent .quienesSomosContent-img,
+.quienes-somos .quienesSomosContent .quienesSomosContent-title,
+.quienes-somos .valoresContent,
+.quienes-somos .nosotrosContent {
   margin-right: auto !important; }
 
 .mb-auto,
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto, .homeHero .heroContent .heroRow .heroTitle, .quienes-somos .valoresContent, .quienes-somos .nosotrosContent, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item:first-child, .contact .item,
-.mx-auto {
+.ml-auto, .homeHero .heroContent .heroRow .heroTitle, .politica-integrada .item, .politica-integrada-extra .title, .experiencia-eficiencia .item, .servicio-autorizacion .title, .servicio-autorizacion .item, .tratamiento-riles .img, .tratamiento-riles .item, .laboratorios-certificados .item, .normativa-vigente .title, .normativa-vigente .list, .acreditaciones-etfa .item, .ubicacion-laboratorios .item, .exitosas-experiencias .item, .servicios .item, .noticias .item, .sucursales .item:first-child, .contact .item,
+.mx-auto,
+.quienes-somos .quienesSomosContent .quienesSomosContent-img,
+.quienes-somos .quienesSomosContent .quienesSomosContent-title,
+.quienes-somos .valoresContent,
+.quienes-somos .nosotrosContent {
   margin-left: auto !important; }
 
 @media (min-width: 576px) {
@@ -5561,8 +5569,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 body {
   font-family: "Lato", sans-serif;
-  text-align: center;
-  overflow-x: hidden; }
+  text-align: center; }
 
 h1, h2, h3 {
   text-transform: uppercase; }
@@ -5629,65 +5636,66 @@ textarea {
   h1 {
     font-weight: 400; } }
 
-.quienes-somos .quienesSomosContent {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .quienes-somos .quienesSomosContent .img img {
-    width: 300px;
-    margin-right: 5em; }
-  .quienes-somos .quienesSomosContent .title {
-    margin: 0 auto; }
-    .quienes-somos .quienesSomosContent .title h3 {
+.quienes-somos {
+  position: relative;
+  z-index: 1; }
+  .quienes-somos .quienesSomosContent {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
+      width: 300px; }
+      @media (min-width: 768px) {
+        .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
+          margin-right: 5em; } }
+    .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 {
       text-align: center;
       font-size: 22px;
       font-weight: 400; }
       @media (min-width: 768px) {
-        .quienes-somos .quienesSomosContent .title h3 br {
+        .quienes-somos .quienesSomosContent .quienesSomosContent-title h3 br {
           display: none; } }
-    .quienes-somos .quienesSomosContent .title p {
+    .quienes-somos .quienesSomosContent .quienesSomosContent-title p {
       margin-top: 2em;
       font-size: 16px;
       text-align: left; }
-
-.quienes-somos .valoresContent {
-  text-align: left;
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
-  .quienes-somos .valoresContent .valoresItem:last-child {
+  .quienes-somos .valoresContent {
+    text-align: left;
+    height: 80vh;
     display: flex;
-    align-items: flex-start; }
-  .quienes-somos .valoresContent .valoresItem .valoresItem-title {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.1em; }
-  .quienes-somos .valoresContent .valoresItem img {
-    margin-right: 1em;
-    margin-top: 6px;
-    width: 15px; }
-
-.quienes-somos .nosotrosContent .nosotrosItem {
-  text-align: left;
-  position: relative;
-  z-index: 1;
-  margin-bottom: 1.3em; }
-  .quienes-somos .nosotrosContent .nosotrosItem p:not(.nosotrosTitle) {
-    margin-bottom: 0; }
-  .quienes-somos .nosotrosContent .nosotrosItem ul {
-    list-style-type: none; }
-    .quienes-somos .nosotrosContent .nosotrosItem ul li {
-      font-weight: 300; }
-      .quienes-somos .nosotrosContent .nosotrosItem ul li::before {
-        content: "• ";
-        color: #4bc022; }
-  .quienes-somos .nosotrosContent .nosotrosItem .nosotrosTitle {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.1em;
-    margin-bottom: .5em; }
+    justify-content: center;
+    flex-direction: column; }
+    .quienes-somos .valoresContent .valoresItem:last-child {
+      display: flex;
+      align-items: flex-start; }
+    .quienes-somos .valoresContent .valoresItem .valoresItem-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.1em; }
+    .quienes-somos .valoresContent .valoresItem img {
+      margin-right: 1em;
+      margin-top: 6px;
+      width: 15px; }
+  .quienes-somos .nosotrosContent .nosotrosItem {
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.3em; }
+    .quienes-somos .nosotrosContent .nosotrosItem p:not(.nosotrosTitle) {
+      margin-bottom: 0; }
+    .quienes-somos .nosotrosContent .nosotrosItem ul {
+      list-style-type: none; }
+      .quienes-somos .nosotrosContent .nosotrosItem ul li {
+        font-weight: 300; }
+        .quienes-somos .nosotrosContent .nosotrosItem ul li::before {
+          content: "• ";
+          color: #4bc022; }
+    .quienes-somos .nosotrosContent .nosotrosItem .nosotrosTitle {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.1em;
+      margin-bottom: .5em; }
 
 .bg-empresa {
   height: 100vh;

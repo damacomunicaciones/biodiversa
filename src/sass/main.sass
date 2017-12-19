@@ -27,7 +27,7 @@ $lato: 'Lato', sans-serif
 body
   font-family: $lato
   text-align: center
-  overflow-x: hidden
+  // overflow-x: hidden
 
 h1, h2, h3
   text-transform: uppercase
@@ -103,24 +103,29 @@ textarea
 @supports (-ms-ime-align:auto)
   h1
     font-weight: 400
-    
+
 // QUIENES SOMOS
 .quienes-somos
-  @extend .container
+  // @extend .container
+  position: relative
+  z-index: 1
   .quienesSomosContent
+    @extend .container
     height: 100vh
     display: flex
-    flex-direction: column
-    justify-content: center
-    .img
-      @extend .col
+    align-items: center
+    text-align: center
+    .quienesSomosContent-img
+      @extend .col-10
+      @extend .mx-auto
       img
         width: 300px
-        margin-right: 5em
-    .title
+        @include media-breakpoint-up(md)
+          margin-right: 5em
+    .quienesSomosContent-title
       @extend .col-10
       @extend .col-md-8
-      margin: 0 auto
+      @extend .mx-auto
       h3
         text-align: center
         font:
@@ -137,10 +142,9 @@ textarea
   .valoresContent
     @extend .col-10
     @extend .col-md-8
-    @extend .ml-auto
-    @extend .mr-auto
+    @extend .mx-auto
     text-align: left
-    min-height: 80vh
+    height: 80vh
     display: flex
     justify-content: center
     flex-direction: column
@@ -155,7 +159,6 @@ textarea
         @extend .col-md-8
         display: flex
         align-items: flex-start
-
       .valoresItem-title
         @extend .text-left
         @extend .text-md-right
@@ -169,8 +172,7 @@ textarea
 
   .nosotrosContent
     @extend .col-10
-    @extend .ml-auto
-    @extend .mr-auto
+    @extend .mx-auto
     .nosotrosItem
       @extend .col-md-4
       text-align: left
