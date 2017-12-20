@@ -5667,10 +5667,12 @@ textarea {
         text-align: left; }
   .quienes-somos .valoresContent {
     text-align: left;
-    height: 80vh;
     display: flex;
     justify-content: center;
     flex-direction: column; }
+    @media (min-width: 768px) {
+      .quienes-somos .valoresContent {
+        height: 80vh; } }
     .quienes-somos .valoresContent .valoresItem:last-child {
       display: flex;
       align-items: flex-start; }
