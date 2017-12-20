@@ -155,10 +155,11 @@ textarea
     @extend .col-md-8
     @extend .mx-auto
     text-align: left
-    height: 80vh
     display: flex
     justify-content: center
     flex-direction: column
+    @include media-breakpoint-up(md)
+      height: 80vh
     .valoresItem
       @extend .col-12
       &:first-child
