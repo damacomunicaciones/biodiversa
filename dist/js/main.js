@@ -520,12 +520,22 @@ WebFont.load({
 });
 
 // Header scroll color
+
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+  var scroll = $(window).scrollTop();
     if (scroll >= 500) {
         $("#headerMain").addClass("headerScroll");
     } else {
       $("#headerMain").removeClass("headerScroll");
+    }
+});
+
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+    if (scroll <= 500) {
+      $(".up-arrow").fadeOut(500);
+    } else {
+      $(".up-arrow").fadeIn(500);
     }
 });
 
