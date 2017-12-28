@@ -8024,12 +8024,8 @@ textarea {
     font-size: 10px;
     margin-bottom: 0; }
 
-.up-arrow {
-  display: none; }
-
 @supports (-ms-ime-align: auto) {
   .up-arrow {
-    display: block;
     width: 50px;
     height: 50px;
     background: #737373;
@@ -8040,6 +8036,7 @@ textarea {
     position: fixed;
     right: 1em;
     bottom: 1em;
+    z-index: 999;
     border-radius: 50%; }
     .up-arrow img {
       width: 25px;

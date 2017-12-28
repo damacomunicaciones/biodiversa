@@ -6,12 +6,22 @@ WebFont.load({
 });
 
 // Header scroll color
+
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+  var scroll = $(window).scrollTop();
     if (scroll >= 500) {
         $("#headerMain").addClass("headerScroll");
     } else {
       $("#headerMain").removeClass("headerScroll");
+    }
+});
+
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+    if (scroll <= 500) {
+      $(".up-arrow").fadeOut(500);
+    } else {
+      $(".up-arrow").fadeIn(500);
     }
 });
 
@@ -107,9 +117,9 @@ $("#form").validate({
     }
   },
   messages: {
-    name: "Porfavor ingresa tu nombre.",
-    email: "Porfavor ingresa tu correo electrónico.",
-    tel: "Porfavor ingresa tu teléfono de contacto.",
-    message: "Porfavor escribe tu mensaje."
+    name: "Por favor ingresa tu nombre.",
+    email: "Por favor ingresa tu correo electrónico.",
+    tel: "Por favor ingresa tu teléfono de contacto.",
+    message: "Por favor escribe tu mensaje."
   }
 });
