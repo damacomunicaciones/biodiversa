@@ -117,9 +117,9 @@ $("#form").validate({
     }
   },
   messages: {
-    name: "Porfavor ingresa tu nombre.",
-    email: "Porfavor ingresa tu correo electrónico.",
-    tel: "Porfavor ingresa tu teléfono de contacto.",
-    message: "Porfavor escribe tu mensaje."
+    name: "Por favor ingresa tu nombre.",
+    email: "Por favor ingresa tu correo electrónico.",
+    tel: "Por favor ingresa tu teléfono de contacto.",
+    message: "Por favor escribe tu mensaje."
   }
 });
