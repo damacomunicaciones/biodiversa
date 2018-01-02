@@ -23,6 +23,7 @@
         color: $azul-claro
   img
     width: 40px
+    height: 40px
   .copyright
     @extend .col-12
     ul
@@ -46,13 +47,15 @@
     font-size: 10px
     margin-bottom: 0
 
+.up-arrow
+  display: none !important
 @supports (-ms-ime-align:auto)
   .up-arrow
     width: 50px
     height: 50px
     background: $grisOscuro
     color: $blanco
-    display: flex
+    display: flex !important
     align-items: center
     justify-content: center
     position: fixed

@@ -90,22 +90,22 @@ textarea
     .heroRow
       @extend .row
       .heroTitle
-        @extend .col-12
+        @extend .col-10
         text-align: center
-        @extend .ml-auto
-        @extend .mr-auto
+        @extend .mx-auto
         height: 100vh
         display: flex
         justify-content: center
         align-items: center
         flex-direction: column
         h1, h2
+          width: 99%
           color: $blanco
           line-height: 1.3
           font:
             size: 24px
             weight: 300
-          @include media-breakpoint-up(sm)
+          @include media-breakpoint-up(md)
             font-size: 40px
         h2
           font-weight: 700
@@ -122,7 +122,8 @@ textarea
     @extend .container
     height: 100vh
     display: flex
-    align-items: center
+    flex-direction: column
+    justify-content: center
     text-align: center
     .quienesSomosContent-img
       @extend .col-10
@@ -180,7 +181,11 @@ textarea
       img
         margin-right: 1em
         margin-top: 6px
-        width: 15px
+        width: 15px !important
+        height: 25px !important
+      p
+        margin-left: auto
+        width: 90%
 
   .nosotrosContent
     @extend .col-10
@@ -221,10 +226,12 @@ textarea
 // Política integrada a la empresa
 .politica-integrada
   padding-bottom: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
   margin-top: -10em
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     @extend .col-12
     img
@@ -256,9 +263,11 @@ textarea
 .politica-integrada-extra
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .title
     @extend .col-10
     @extend .col-md-4
@@ -275,15 +284,18 @@ textarea
     @extend .col-md-5
     @extend .mr-auto
     .item
-      display: flex
+      display: inline-flex
       flex-direction: row
       align-items: flex-start
       padding-bottom: 1em
       img
         margin-right: 1em
         margin-top: 6px
-        width: 15px
+        width: 15px !important
+        height: 25px !important
       p
+        width: 90%
+        margin-left: auto
         font-size: 16px
         text-align: left
 
@@ -291,9 +303,11 @@ textarea
 .organizacion
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 70vh
-  display: flex
-  align-items: center
+  @include media-breakpoint-up(md)
+    height: 70vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .title
     @extend .col
     h3
@@ -323,6 +337,7 @@ textarea
 //  SOLUCIONES INTEGRALES EFICIENTES Y AMBIENTALMENTE SEGURAS
 .integrales-eficientes
   height: 100vh
+  min-height: 100vh
   display: flex
   align-items: center
   position: relative
@@ -353,11 +368,12 @@ textarea
 
 // EXPERIENCIA Y EFICIENCIA EN EL MANEJO DE RILES
 .experiencia-eficiencia
-  padding-top: 3em
-  padding-bottom: 3em
-  min-height: 100vh
+  margin-top: 3em
+  margin-bottom: 3em
+  height: 100vh
   display: flex
-  align-items: center
+  flex-direction: column
+  justify-content: center
   .img
     @extend .col-12
     img
@@ -391,9 +407,10 @@ textarea
 .servicio-autorizacion
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 100vh
+  height: 100vh
   display: flex
-  align-items: center
+  flex-direction: column
+  justify-content: center
   .img
     position: relative
     @extend .col-12
@@ -444,9 +461,10 @@ textarea
 .tratamiento-riles
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 100vh
+  height: 100vh
   display: flex
-  align-items: center
+  flex-direction: column
+  justify-content: center
   .img
     @extend .col-12
     @extend .col-md-6
@@ -490,7 +508,7 @@ textarea
 .analisis-monitoreo
   height: 100vh
   display: flex
-  align-items: center
+  align-items: center !important
   position: relative
   background:
     image: url('../../assets/img/laboratorio.jpg')
@@ -521,9 +539,11 @@ textarea
 .laboratorios-certificados
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     @extend .col-12
     img
@@ -557,9 +577,11 @@ textarea
 .normativa-vigente
   padding-top: 3em
   padding-bottom: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     position: relative
     @extend .col-12
@@ -603,8 +625,11 @@ textarea
       img
         margin-right: 1em
         margin-top: 6px
-        width: 15px
+        width: 15px !important
+        height: 25px !important
       p
+        width: 90%
+        margin-left: auto
         font-size: 16px
         text-align: left
         &:last-child
@@ -744,9 +769,11 @@ textarea
 // EXITOSAS EXPERIENCIAS DE APLICACIÓN DE LODOS
 .exitosas-experiencias
   padding-top: 5em
-  min-height: 100vh
-  display: flex
-  align-items: center
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     @extend .col-12
     img
@@ -778,10 +805,12 @@ textarea
 
 // SERVICIOS
 .servicios
-  padding-top: 3em
-  min-height: 100vh
-  display: flex
-  align-items: center
+  @extend .container
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     @extend .col-12
     img
@@ -842,16 +871,19 @@ textarea
     .card-img
       @extend .card-img-top
       border-radius: 0
-      max-height: auto
-    h4
-      font-size: 1.2em
-      @extend .card-title
-    p
-      font-size: .9em
-      @extend .card-text
+      max-height: 300px
+    .card-body
+      padding: 1em
+      h4
+        font-size: 1.2em
+        @extend .card-title
+      p
+        font-size: .9em
+        @extend .card-text
 
 // SUCURSALES
 .sucursales
+  @extend .container
   padding-top: 3em
   .title
     @extend .col-12

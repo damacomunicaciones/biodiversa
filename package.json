@@ -9,11 +9,12 @@
   "author": "DAMA Comunicaciones",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.2.4",
     "bootstrap": "^4.0.0-beta",
     "browser-sync": "^2.18.13",
     "feather-icons": "^3.3.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
     "gulp-cache": "^0.4.6",
     "gulp-combine-mq": "^0.4.0",
     "gulp-concat": "^2.6.1",
@@ -27,5 +28,11 @@
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.9.5",
     "node-sass": "^4.7.2"
-  }
+  },
+  "browserslist": [
+    "ie >= 8",
+    "last 2 versions",
+    "last 2 iOS versions",
+    "last 2 Android versions"
+  ]
 }
