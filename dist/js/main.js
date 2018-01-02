@@ -532,10 +532,10 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
-    if (scroll <= 500) {
-      $(".up-arrow").fadeOut(500);
+    if (scroll >= 500) {
+      $(".up-arrow").addClass("active");
     } else {
-      $(".up-arrow").fadeIn(500);
+      $(".up-arrow").removeClass("active");
     }
 });
 

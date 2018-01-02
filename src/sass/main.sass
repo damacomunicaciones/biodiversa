@@ -370,10 +370,11 @@ textarea
 .experiencia-eficiencia
   margin-top: 3em
   margin-bottom: 3em
-  height: 100vh
-  display: flex
-  flex-direction: column
-  justify-content: center
+  @include media-breakpoint-up(md)
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
   .img
     @extend .col-12
     img
