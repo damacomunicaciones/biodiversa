@@ -38,8 +38,11 @@ gulp.task('styles', function(){
       message:'Error: <%= error.message %>',
       title:'Fallo en SASS'
     })))
-    // .pipe(sass())
-    // .pipe(autoprefixer('last 2 versions', 'ie >= 9'))
+    .pipe(sass())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 8', 'last 2 iOS versions', 'last 2 Android versions'],
+      cascade: false
+    }))
     .pipe(gulp.dest('dist/css/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
