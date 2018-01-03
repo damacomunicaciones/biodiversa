@@ -28,6 +28,7 @@
     if (mail($client, $name, $msjCorreo, $headers)) {
          echo "<script language='javascript'>
             alert('Mensaje enviado, muchas gracias.');
+            window.location.href='index.html';
          </script>";
     } else {
          echo "<script language='javascript'>
