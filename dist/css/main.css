@@ -10719,7 +10719,7 @@ textarea {
   transition: all .3s; }
 
 .headerMain.headerScroll .brand {
-  background-image: url("../../assets/img/logo_biodiversa_full.png"); }
+  background-image: url("../../assets/img/logo_biodiversa_full.svg"); }
 
 .headerMain.headerScroll .btn-nav span {
   background: #737373; }
@@ -10734,9 +10734,9 @@ textarea {
 .headerMain .brand {
   width: 200px;
   height: 50px;
-  background-image: url("../../assets/img/logo_biodiversa_blanco.png");
+  background-image: url("../../assets/img/logo_biodiversa_blanco.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   background-position: center; }
 
 @media (min-width: 768px) {
