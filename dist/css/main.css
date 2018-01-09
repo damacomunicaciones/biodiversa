@@ -6842,7 +6842,8 @@ textarea {
   text-align: center; }
 
 .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
-  width: 200px; }
+  width: 200px;
+  margin-bottom: 2em; }
 
 @media (min-width: 768px) {
   .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
