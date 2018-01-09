@@ -130,6 +130,7 @@ textarea
       @extend .mx-auto
       img
         width: 200px
+        margin-bottom: 2em
         @include media-breakpoint-up(md)
           width: 300px
           // margin-right: 5em
@@ -293,6 +294,10 @@ textarea
         margin-top: 6px
         width: 15px !important
         height: 25px !important
+      &:nth-child(5)
+        img
+          position: relative
+          left: -3px
       p
         width: 90%
         margin-left: auto

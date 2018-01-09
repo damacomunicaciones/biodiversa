@@ -6842,7 +6842,8 @@ textarea {
   text-align: center; }
 
 .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
-  width: 200px; }
+  width: 200px;
+  margin-bottom: 2em; }
 
 @media (min-width: 768px) {
   .quienes-somos .quienesSomosContent .quienesSomosContent-img img {
@@ -7037,6 +7038,10 @@ textarea {
   margin-top: 6px;
   width: 15px !important;
   height: 25px !important; }
+
+.politica-integrada-extra .list .item:nth-child(5) img {
+  position: relative;
+  left: -3px; }
 
 .politica-integrada-extra .list .item p {
   width: 90%;
@@ -10736,7 +10741,7 @@ textarea {
   height: 50px;
   background-image: url("../../assets/img/logo_biodiversa_blanco.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: center; }
 
 @media (min-width: 768px) {
