@@ -7038,6 +7038,10 @@ textarea {
   width: 15px !important;
   height: 25px !important; }
 
+.politica-integrada-extra .list .item:nth-child(5) img {
+  position: relative;
+  left: -3px; }
+
 .politica-integrada-extra .list .item p {
   width: 90%;
   margin-left: auto;
