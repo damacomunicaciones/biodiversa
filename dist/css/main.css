@@ -6781,11 +6781,12 @@ textarea {
   background-image: url("../../assets/img/home.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 320%;
   background-attachment: scroll; }
 
 @media (min-width: 768px) {
   .homeHero {
+    background-size: cover;
     background-attachment: fixed; } }
 
 .homeHero .heroContent .heroRow .heroTitle {
@@ -7399,7 +7400,8 @@ textarea {
   width: 100%;
   position: absolute;
   top: -60px;
-  left: -35%; }
+  left: -35%;
+  z-index: -1; }
 
 @media (min-width: 768px) {
   .normativa-vigente .img img {
@@ -7800,6 +7802,12 @@ textarea {
   right: 0;
   bottom: 0;
   left: 0; }
+
+@supports (-ms-ime-align: auto) {
+  .integrales-eficientes,
+  .analisis-monitoreo,
+  .residuos {
+    background-attachment: scroll; } }
 
 @font-face {
   font-family: 'icons';

@@ -79,9 +79,10 @@ textarea
     image: url('../../assets/img/home.jpg')
     repeat: no-repeat
     position: center
-    size: cover
+    size: 320%
     attachment: scroll
   @include media-breakpoint-up(md)
+    background-size: cover
     background-attachment: fixed
 
   // Principal text
@@ -597,6 +598,7 @@ textarea
       position: absolute
       top: -60px
       left: -35%
+      z-index: -1
       @include media-breakpoint-up(md)
         width: 70%
   .title
@@ -965,6 +967,12 @@ textarea
   right: 0
   bottom: 0
   left: 0
+
+@supports (-ms-ime-align:auto)
+  .integrales-eficientes,
+  .analisis-monitoreo,
+  .residuos
+    background-attachment: scroll
 
 @import "fonts"
 @import "animate"
