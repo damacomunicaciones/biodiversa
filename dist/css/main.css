@@ -7807,6 +7807,14 @@ textarea {
   .integrales-eficientes,
   .analisis-monitoreo,
   .residuos {
+    background-color: red !important;
+    background-attachment: scroll; } }
+
+@media all and (-ms-high-contrast: none) {
+  .integrales-eficientes,
+  .analisis-monitoreo,
+  .residuos {
+    background-color: red !important;
     background-attachment: scroll; } }
 
 @font-face {

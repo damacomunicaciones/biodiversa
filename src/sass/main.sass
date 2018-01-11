@@ -968,10 +968,18 @@ textarea
   bottom: 0
   left: 0
 
-@supports (-ms-ime-align:auto)
+@supports (-ms-ime-align: auto)
   .integrales-eficientes,
   .analisis-monitoreo,
   .residuos
+    background-color: red !important
+    background-attachment: scroll
+
+@media all and (-ms-high-contrast: none)
+  .integrales-eficientes,
+  .analisis-monitoreo,
+  .residuos
+    background-color: red !important
     background-attachment: scroll
 
 @import "fonts"
