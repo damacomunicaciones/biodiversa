@@ -6736,7 +6736,8 @@ a.text-dark:focus, a.text-dark:hover {
 
 body {
   font-family: "Lato", sans-serif;
-  text-align: center; }
+  text-align: center;
+  background-color: #ffffff !important; }
 
 h1, h2, h3 {
   text-transform: uppercase; }
@@ -6779,6 +6780,7 @@ textarea {
 .homeHero {
   position: relative;
   background-image: url("../../assets/img/home.jpg");
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 320%;
@@ -7399,7 +7401,7 @@ textarea {
 .normativa-vigente .img img {
   width: 100%;
   position: absolute;
-  top: -60px;
+  top: -30px;
   left: -35%;
   z-index: -1; }
 
@@ -11004,7 +11006,6 @@ textarea {
     height: 50px;
     background: #737373;
     color: #ffffff;
-    display: none !important;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
