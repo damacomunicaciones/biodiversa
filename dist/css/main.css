@@ -7804,6 +7804,7 @@ textarea {
   left: 0; }
 
 @supports (-ms-ime-align: auto) {
+  .homeHero,
   .integrales-eficientes,
   .analisis-monitoreo,
   .residuos {
@@ -7811,6 +7812,7 @@ textarea {
     background-attachment: scroll; } }
 
 @media all and (-ms-high-contrast: none) {
+  .homeHero,
   .integrales-eficientes,
   .analisis-monitoreo,
   .residuos {
